@@ -81,8 +81,8 @@ if __name__ == "__main__":
 
 	run_time = 0.1
 	while True:
-    	key = stdscr.getch()
-    	if key == ord('w'):
+    		key = stdscr.getch()
+    		if key == ord('w'):
 			forwardDrive()
 			sleep(run_time)
 		elif key == ord('s'):
